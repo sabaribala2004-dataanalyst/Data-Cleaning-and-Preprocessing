@@ -23,3 +23,28 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 - Source: Medical Appointment No-Shows dataset
 - Raw file: <a href="https://github.com/sabaribala2004-dataanalyst/Data-Cleaning-and-Preprocessing/blob/main/KaggleV2-May-2016.csv">raw_data</a>
 - Cleaned file: <a href="https://github.com/sabaribala2004-dataanalyst/Data-Cleaning-and-Preprocessing/blob/main/Cleaned_KaggleV2.xlsx">cleaned_data</a>
+
+## 🛠️ Data Cleaning Steps
+
+### # Column Renaming
+- Converted all column headers to lowercase with underscores.  
+- Example:  
+  - `PatientId` → `patient_id`  
+  - `No-show` → `no_show`
+
+### # Patient ID Fix
+- Converted scientific notation values to plain text.  
+- Stored `patient_id` as text since it is only an identifier.
+
+### # Date Columns Standardization
+- Removed `T` and `Z` characters from date/time fields.  
+- Converted to proper Excel format → **dd-mm-yyyy**.
+
+### # Text Standardization
+- Normalized `gender` values:  
+  - `M` → `Male`  
+  - `F` → `Female`
+
+### # Data Quality Check
+- Verified **no missing values**.  
+- Verified **no duplicate rows**.
