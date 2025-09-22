@@ -24,7 +24,7 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 - Raw file: <a href="https://github.com/sabaribala2004-dataanalyst/Data-Cleaning-and-Preprocessing/blob/main/KaggleV2-May-2016.csv">raw_data</a>
 - Cleaned file: <a href="https://github.com/sabaribala2004-dataanalyst/Data-Cleaning-and-Preprocessing/blob/main/Cleaned_KaggleV2.xlsx">cleaned_data</a>
 
-## 🛠️ Data Cleaning Steps
+# 🛠️ Data Cleaning Steps
 
 ## Column Renaming
 - Converted all column headers to lowercase with underscores.  
@@ -36,15 +36,15 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 - Converted scientific notation values to plain text.  
 - Stored `patient_id` as text since it is only an identifier.
 
-### # Date Columns Standardization
+## Date Columns Standardization
 - Removed `T` and `Z` characters from date/time fields.  
 - Converted to proper Excel format → **dd-mm-yyyy**.
 
-### # Text Standardization
+## Text Standardization
 - Normalized `gender` values:  
   - `M` → `Male`  
   - `F` → `Female`
 
-### # Data Quality Check
+## Data Quality Check
 - Verified **no missing values**.  
 - Verified **no duplicate rows**.
