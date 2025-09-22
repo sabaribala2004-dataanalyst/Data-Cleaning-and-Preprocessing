@@ -60,7 +60,13 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 ## Consistency Checks  
 
 - Validated that `scheduled_day` is always ≤ `appointment_day`.  
-- Ensured logical consistency across records.
+- Added a new column `date_consistency` with three categories:  
+  - `Before` → scheduled_day < appointment_day  
+  - `Same Day` → scheduled_day = appointment_day  
+  - `After (Error)` → scheduled_day > appointment_day  
+- Found 4 records where `scheduled_day` was greater than `appointment_day`.  
+- These invalid rows were removed from the cleaned dataset to ensure logical consistency.  
+
 
 ## Data Quality Check
 - Verified **no missing values**.  
