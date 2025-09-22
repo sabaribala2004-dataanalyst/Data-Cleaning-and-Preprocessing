@@ -44,24 +44,28 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 - Normalized `gender` values:  
   - `M` → `Male`  
   - `F` → `Female`
- 
-## Data Type Validation
-- Ensured correct data types:
-  - 'age' → integer
-  - 'patient_id' → string
-  - 'date columns' → datetime
-
-Outlier Check
-Verified that age values fall within a realistic range (0–120).
-Confirmed no invalid or extreme values remained.
-
-Consistency Checks
-Validated that scheduled_day is always ≤ appointment_day.
-Ensured logical consistency across records.
 
 ## Data Quality Check
 - Verified **no missing values**.  
 - Verified **no duplicate rows**.
+
+## Data Type Validation  
+
+- Ensured correct data types:  
+  - `age` → integer  
+  - `patient_id` → string  
+  - date columns → datetime  
+
+## Outlier Check  
+
+- Verified that age values fall within a realistic range (0–120).  
+- Confirmed no invalid or extreme values remained.  
+
+## Consistency Checks  
+
+- Validated that `scheduled_day` is always ≤ `appointment_day`.  
+- Ensured logical consistency across records.  
+
 
 ## 📂 Output
 - <a href="https://github.com/sabaribala2004-dataanalyst/Data-Cleaning-and-Preprocessing/blob/main/Cleaned_KaggleV2.xlsx">cleaned_data</a> → final processed dataset, ready for analysis/visualization.  
