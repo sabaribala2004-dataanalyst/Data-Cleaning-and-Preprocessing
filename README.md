@@ -26,13 +26,13 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 
 ## 🛠️ Data Cleaning Steps
 
-### # Column Renaming
+## Column Renaming
 - Converted all column headers to lowercase with underscores.  
 - Example:  
   - `PatientId` → `patient_id`  
   - `No-show` → `no_show`
 
-### # Patient ID Fix
+## Patient ID Fix
 - Converted scientific notation values to plain text.  
 - Stored `patient_id` as text since it is only an identifier.
 
