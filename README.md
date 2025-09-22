@@ -45,10 +45,6 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
   - `M` → `Male`  
   - `F` → `Female`
 
-## Data Quality Check
-- Verified **no missing values**.  
-- Verified **no duplicate rows**.
-
 ## Data Type Validation  
 
 - Ensured correct data types:  
@@ -64,7 +60,11 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 ## Consistency Checks  
 
 - Validated that `scheduled_day` is always ≤ `appointment_day`.  
-- Ensured logical consistency across records.  
+- Ensured logical consistency across records.
+
+## Data Quality Check
+- Verified **no missing values**.  
+- Verified **no duplicate rows**.
 
 
 ## 📂 Output
