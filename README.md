@@ -55,7 +55,8 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 ## Outlier Check  
 
 - Verified that age values fall within a realistic range (0–120).  
-- Confirmed no invalid or extreme values remained.  
+- Found 1 record with age = -1, which was invalid → removed.  
+- Confirmed no other extreme or unrealistic values remained. .  
 
 ## Consistency Checks  
 
