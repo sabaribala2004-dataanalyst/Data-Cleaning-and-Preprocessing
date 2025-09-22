@@ -48,3 +48,14 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**)  is consistent , structure
 ## Data Quality Check
 - Verified **no missing values**.  
 - Verified **no duplicate rows**.
+
+  ## 📂 Output
+- <a href="https://github.com/sabaribala2004-dataanalyst/Data-Cleaning-and-Preprocessing/blob/main/Cleaned_KaggleV2.xlsx">cleaned_data</a> → final processed dataset, ready for analysis/visualization.  
+
+
+## ✅ Status
+The dataset has been successfully **cleaned, validated, and stored in a structured format** for further use.  
+This ensures reliable results in downstream tasks such as:  
+- Data analysis  
+- Dashboarding  
+- Machine learning  
