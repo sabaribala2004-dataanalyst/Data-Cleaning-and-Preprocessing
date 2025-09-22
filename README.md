@@ -16,4 +16,4 @@ The final cleaned dataset (**Cleaned_KaggleV2.xlsx**) <a href="https://github.co
 - Standardized date fields (scheduled_day, appointment_day) into dd-mm-yyyy format.
 - Normalized categorical values (e.g., M → Male, F → Female).
 - Verified data quality: no missing values and no duplicate rows.
-  The final cleaned dataset is well-structured, consistent, and analysis-ready.
+The final cleaned dataset is well-structured, consistent, and analysis-ready.
