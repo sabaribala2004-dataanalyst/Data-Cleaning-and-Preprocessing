@@ -1,3 +1,5 @@
+#Data Cleaning and Preprocessing
+
 ## 📌 Description  
 
 This project is part of a **Data Analyst Internship Task**.  
@@ -7,7 +9,7 @@ The main objective of this task was to **clean and preprocess the raw dataset** 
 
 The final cleaned dataset (**Cleaned_KaggleV2.xlsx**) <a href="https://github.com/sabaribala2004-dataanalyst/Data-Cleaning-and-Preprocessing/blob/main/Cleaned_KaggleV2.xlsx">View Cleaned Data</a> is consistent , structured, and ready for further analysis or visualization.
 
-##Key tasks performed
+## Key tasks performed
 
 - Converted column names into a consistent snake_case format.
 - Fixed PatientId formatting by converting it to text (to prevent digit loss).
